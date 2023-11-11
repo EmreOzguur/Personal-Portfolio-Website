@@ -73,17 +73,12 @@ header ul li:hover{
 .image{
     width: 400px;
     height: 400px; 
-    background-color:transparent;
-    border: 5px solid rgb(231, 227, 172)98db; 
+    background-color:transparent; 
     border-radius: 50%; 
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     filter:grayscale(100%); 
     transition: filter 0.5s;
 }
